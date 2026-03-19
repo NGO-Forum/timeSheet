@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-scroll::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: rgb(243 244 246 / var(--tw-bg-opacity, 1));
+  border-radius: 20px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgb(243 244 246 / var(--tw-bg-opacity, 1));
+}
+
+.input {
+  @apply border rounded-lg px-3 py-2 w-full;
+}
